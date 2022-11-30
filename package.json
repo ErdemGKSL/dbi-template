@@ -4,7 +4,7 @@
     "@mostfeatured/dbi": "^0.0.54",
     "@mostfeatured/namespace-types": "^0.0.18",
     "discord.js": "^14.6.0",
-    "dotenv": "^16.0.3",
+    "dotenv-json": "^1.0.0",
     "stuffs": "^0.1.22"
   }
 }

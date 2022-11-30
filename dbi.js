@@ -1,5 +1,5 @@
 // use .env file for environment variables
-require('dotenv').config();
+require('dotenv-json')();
 const { createDBI } = require('@mostfeatured/dbi');
 
 module.exports = createDBI("dbi", {
