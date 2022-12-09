@@ -12,6 +12,6 @@ module.exports = createDBI("dbi", {
   defaults: {
     locale: "en",
     directMessages: false,
-    defaultMemberPermissions: ["VIEW_CHANNEL", "SEND_MESSAGES"],
+    defaultMemberPermissions: ["ViewChannel", "SendMessages"],
   }
 });
