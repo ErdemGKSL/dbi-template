@@ -1,10 +1,10 @@
 // use .env file for environment variables
-require('dotenv-json')();
+const config = require("./config.json");
 const { createDBI } = require('@mostfeatured/dbi');
 
 module.exports = createDBI("dbi", {
   discord: {
-    token: process.env.DISCORD_TOKEN,
+    token: config.DISCORD_TOKEN,
     options: {
       intents: ["Guilds", "GuildMessages"],
     }
