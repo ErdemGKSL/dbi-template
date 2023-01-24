@@ -1,4 +1,4 @@
-const { recursiveImport } = require("@mostfeatured/dbi");
+const { Utils: { recursiveImport } } = require("@mostfeatured/dbi");
 const dbi = require("./dbi");
 
 (async () => {

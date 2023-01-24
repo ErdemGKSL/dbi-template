@@ -1,4 +1,4 @@
-const { recursiveImport, generatedPath } = require("@mostfeatured/dbi");
+const { Utils: { recursiveImport }, generatedPath } = require("@mostfeatured/dbi");
 const { setNamespaceDataTypes } = require("@mostfeatured/namespace-types");
 const path = require("path");
 const dbi = require("./dbi");
